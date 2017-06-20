@@ -17,12 +17,13 @@
 
 
 
-	WLECOME TO HTML NODES \ ELEMENTS
+	WELCOME TO HTML NODES \ ELEMENTS
 	===================================
 	Everything in HTML is divided into "nodes" - also called "HTML elements"
 	~~
 	<node>
 		<child_node></child_node>
+		<sibling_node></sibling_node>
 	</node>
 
 	We describe the relationships between nodes using the terms "parent", "child" and "sibling"
@@ -34,7 +35,6 @@
 	<node attribute="value"></node>
 
 
-
 	And a body, like this:
 	~~
 	<node> afdkljasdfljkasdf;l </node>
@@ -44,7 +44,7 @@
 	========================================
 	The only things in HTML that are not elements are comments.
 	They look like this: <!- - COMMENT - ->
-	Everything between the < and the > of a comment is ignored when the HTML is "parsed"
+	Everything between the <!- and the -> of a comment is ignored when the HTML is "parsed"
 
 
 
@@ -69,7 +69,7 @@
 		are necessary for the page to render but are not part of the page content itself.
 
 		For example, the title of the page, which appears at the top of your browser,
-		and is conveyed using the <title> element.
+		is included in the <head> using the <title> element.
 
 	-->
 
@@ -197,19 +197,20 @@
 			One way is to use the style attribute, like this:
 
 		 -->
-		 <p style="color: red">Look, I'm red!</p>
+		 <p style="color: red; font-size: x-large; font-style: italic;">Look, I'm red!</p>
 
 
 		 <!-- 
 		 	CSS
 		 	===
-		 	The other way is to add a "class" element, and then 
+		 	The other way is to add a "class" attribute, and then 
 		 	write a rule defining how elements of that class
 		 	should look.
 		 -->
 		<p class="redText">Look, I'm red!</p>
+		<p class="redText">So am I!</p>
 		<style>
-			.redText { color: red; }
+			.redText { color: green;  }
 		</style>
 
 
