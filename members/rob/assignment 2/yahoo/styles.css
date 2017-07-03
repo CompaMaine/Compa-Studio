@@ -1,0 +1,89 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.topnav {
+  background: rgb(45, 17, 82);
+}
+
+.topnav a {
+
+  font-size: 13px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  padding-right: 8px;
+  padding-left: 22px;
+  font-weight: 400;
+}
+
+.mainWrap {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.mainHeader {
+  height: 200px;
+  padding: 22px
+}
+
+.logo_frame {
+  float: left;
+  padding-right: 40px;
+}
+
+.search_frame {
+
+  float: left;
+}
+
+.search_frame input {
+  border: solid 1px gray;
+  line-height: 47px;
+  padding-left: 8px;
+  width: 560px;
+  font-size: 18px;
+  display: block;
+  float: left;
+}
+
+.search_frame a {
+  display: block;
+  background: rgb(15, 105, 255);
+  width: 90px;
+  height: 51px;
+  float: left;
+  color: white;
+  line-height: 51px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 200
+}
+
+.btns_frame {
+  float: right;
+}
+
+.btns_frame a {
+  display: block;
+  float: left;
+  margin: 0 10px;
+  color: rgb(77, 0, 174);
+  font-size: 13px;
+}
+
+.btns_frame i {
+  font-size: 28px;
+}
+
+.sign_in_btn {
+  border: solid 2px rgb(77, 0, 174);
+  width: 85px;
+  text-align: center;
+  line-height: 23px;
+
+  font-weight: bold;
+  border-radius: 4px
+}
