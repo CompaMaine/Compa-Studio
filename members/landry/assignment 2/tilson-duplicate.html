@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <style>
-     .topMenu
-     {
+    <style>
+
+      body {
+        margin: 0;
+      }
+
+      /* TOP HEADER */
+      .topHead {
+        background:#0B0B3B;
+        height: 80px;
+      }
+
+      .container {
+          width: 960px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      .logo {
+      }
+
+      .logo a {
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+      }
+
+
+      /* TOP MENU */
+      .topMenu {
         background:#0080FF;
         height: 50px;
-     }
-     .topMenu a
-     {
+      }
+
+      .topMenu a {
+        display: block;
+        float: left;
+
+        
         color: white;
         font-weight: bold;
         font-size: 20px;
-        margin-left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
         text-decoration: none;
-     }
-     .topHead{
-       background:#0B0B3B;
-       height: 80px;
+      }
 
-     }
-     .logo {
-       float: left;
-          margin-left: 100px;
-     }
-     .logo a {
-       font-size: 50px;
-       color: white;
-       font-weight: bold;
-     }
-   </style>
+
+
+
+    </style>
   </head>
 
   <body>
 
- <div class="topHead">
-   <div class="logo">
-     <a><img src="Capture.PNG"/> TILSON</a>
-   </div>
-   <div class="lien">
+    <!-- TOP HEADER -->
+    <div class="topHead">
+      <div class="container">
+        <div class="logo">
+          <a><img src="Capture.PNG"/> TILSON</a>
+        </div>
 
-   </div>
+        <div class="lien">
+        </div>
+      </div>
+    </div>
 
- </div>
-  <div class="topMenu">
-    <a href="">Home</a>
-    <a href="https://tilsontech.com/about/">About</a>
-    <a href="">Services</a>
-    <a href="">News</a>
-    <a href="">Contracts</a>
-    <a href="">Careers</a>
-    <a href="">Contacts</a>
 
- </div>
+    <!-- TOP MENU -->
+    <div class="topMenu">
+      <div class="container">
+        <a href="">Home</a>
+        <a href="https://tilsontech.com/about/">About</a>
+        <a href="">Services</a>
+        <a href="">News</a>
+        <a href="">Contracts</a>
+        <a href="">Careers</a>
+        <a href="">Contacts</a>
+      </div>
+    </div>
+
   </body>
 </html>
