@@ -1,3 +1,103 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<style type="text/css">
+  		body {
+  			background: url(background.jpg);
+  			margin: 0;
+  			padding: 0;
+  			font-family: sans-serif;
+  		}
+
+  		.bg_filter {
+  			position: fixed;
+  			z-index: 1;
+  			height: 100%;
+  			width: 100%;
+  			background: black;
+  			opacity: .6;
+  		}
+
+
+  		.main_content {
+  			position: relative;
+  			z-index: 2;
+  		}
+
+  		.logoFrame {
+  			float: left;
+  		}
+
+  		.loginBtnFrame {
+  			float: right;
+  			margin: 30px 40px;
+  		}
+
+  		.red_btn {
+  			background: red;
+  			color: white;
+  			border-radius: 7px;
+  			padding: 10px 20px;
+  			text-decoration: none;
+  			
+  		}
+
+  		.bigText {
+  			clear: both;
+  			padding-top: 200px;
+  			padding-left: 43px;
+  		}
+
+  		.bigText h1 {
+  			color: white;
+  			font-size: 77.75px;
+  			margin: 0 0 20px;
+  		}
+
+  		.bigText h2 {
+  			margin: 0 0 10px;
+  			color: white;
+  			font-weight: normal;
+
+  		}
+
+  		.bigText .btn_frame {
+  			padding-top: 30px;
+  		}
+
+  		.bigText .red_btn {
+  			font-size: 14px;
+  			padding: 15px 30px;
+  			letter-spacing: .1em;
+  		}
+
+  	</style>
+  </head>
+  <body>
+  	<div class="bg_filter"></div>
+
+  	<div class="main_content">
+
+		<div class="logoFrame">
+			<img src="netflix.png" style="height: 120px"/>
+		</div>
+
+	  	<div class="loginBtnFrame">
+	  		<a href="http://netflix.com/login" class="red_btn">Sign In</a>
+	  	</div>
+
+	  	<div class="bigText">
+	  		<h1>See what's next.</h1>
+	  		<h2>WATCH ANYWHERE. CANCEL ANYTIME.</h2>
+	  		<div class="btn_frame">
+	  			<a href="http://netflix.com/login" class="red_btn">JOIN FREE FOR A MONTH</a>
+	  		</div>
+	  	</div>
+
+
+	  	<p style="color: white; margin-top: 600px">pushing the body down</p>
+
+	</div>
+
+  </body>
+ </html>
