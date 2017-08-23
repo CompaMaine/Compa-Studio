@@ -22,13 +22,18 @@
     <Script>
       $(function(){
 
-        var select_box = $('#restaurant_selector');
-
-        select_box.change(function(){
-          var selected_restaurantId = this.value;
-          $('.restaurant').hide();
-          $('#restaurant_' + selected_restaurantId).show();
+        $('#restaurant_selector').change(function(){
+          $('.restaurant').fadeOut();
+          $('#restaurant_' + this.value).show();
         })
+
+        // MORE COMPLEX
+        // $('#restaurant_selector').change(function(){
+        //   var selected = this.value;
+        //   $('.restaurant').fadeOut(400, function(){
+        //       $('#restaurant_' + selected).delay(600).fadeIn();
+        //   });
+        // })
 
       })
     </script>
