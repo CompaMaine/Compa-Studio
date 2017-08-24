@@ -1,20 +1,31 @@
 
 What we've done so far:
 
-UNIT ONE
+UNIT ONE: Getting Set Up
 - Using Atom
 - Using Git \ GitHub
 - Setting up a local server
 
-UNIT TWO
+
+UNIT TWO: Building User Interfaces
 - HTML
 - CSS
 - Building a webpage
 
-UNIT THREE
+
+UNIT THREE: Managing Data and Information
 - SQL
 - Structuring data
 - Writing queries
+
+
+UNIT FOUR: Putting it altogether
+- Defining a problem?
+- Wireframes
+- Writing specifications
+
+
+
 
 
 SQL = Standard Query Language
