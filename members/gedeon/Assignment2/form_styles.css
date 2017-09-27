@@ -1,0 +1,33 @@
+body { 
+  background: #00a; 
+  font-family: sans-serif;
+}
+
+form {
+  background: white;
+  border: groove 2px red;
+  width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+}
+
+.field-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 10px;
+  display: block;
+  padding-bottom: 3px;
+}
+
+.radioBtns label {
+  display: inline
+}
+
+textarea {
+  border: solid 1px #ccc;
+  width: 250px;
+  height: 100px;
+}
