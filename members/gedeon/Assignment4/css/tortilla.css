@@ -5,12 +5,14 @@ body {
     margin: 0;
     padding: 100;
     position: 0;
+
 }
 
     .container{
-        width: 100%;
+        width: auto;
         margin:auto;
         overflow:hidden;
+
     }
 
 header {
@@ -18,4 +20,10 @@ header {
     padding:0;
     margin: 0;
 }
-content
+content{
+    background-color: red;
+}
+
+yellow-text:{
+    color: yellow;
+}
