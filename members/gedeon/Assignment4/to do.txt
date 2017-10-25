@@ -1,0 +1,32 @@
+Main Menu:
+X Get the text color
+X Get the text font
+X Remove underline
+X Get the text size
+X Remove slashes
+X Remove bullets
+- Align right
+- Add the yellow dashed borders using CSS borders: https://www.w3schools.com/css/css_border.asp
+
+
+Main Image:
+- Fix the height.
+
+
+About Us:
+- Get the container div with the red background and yellow border (make sure you get the right colors).
+- Get the fonts and colors right.
+- Line them up next to each other (if you can).
+- Fix the width of the container.
+
+
+Chips / Happy Hour
+- Size these right.
+- Add the yellow border to each of them.
+
+
+Footer
+- Add the background color (make sure you get the right one).
+- Fix the text font, color and size.
+- Add the dashed yellow line
+- Add the copyright line on the bottom (maybe credit it to yourself?

@@ -8,22 +8,91 @@ body {
 
 }
 
-    .container{
-        width: auto;
-        margin:auto;
-        overflow:hidden;
+p {
+    font-size: 18px;
+    font-family: abel;
+    line-height: 27px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: normal;
+    margin: 0 0 30px 0;
+}
 
-    }
+.outerWrap{
+    margin:auto;
+    width: 1250px;
+    display: block;
+}
 
 header {
-    background-color: maroon;
+    background-color: #660000;
     padding:0;
     margin: 0;
-}
-content{
-    background-color: red;
+    height: 134px;
 }
 
-yellow-text:{
-    color: yellow;
+#logoContainer {
+    float: left;
+    padding-top: 20px;
+}
+
+#nav {
+    float: right;
+    padding-top: 75px;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    list-style-type: none;
+    display: inline-block;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    border-right: 1px dashed #b39c79;
+    border-left: 1px dashed #f5d7a6;
+}
+#nav li:first-child {
+    border-left: none;
+}
+#nav li:last-child {
+    border-right: none;
+}
+
+#nav li a{
+    color: rgb(239, 178, 55);
+    font-family: "Crushed", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+.showcase {
+    height: 380px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.showcase img {
+    width: 100%
+}
+.widget-title {
+    font-family: Crushed;
+    font-variant: normal;
+    text-transform: none;
+    font-weight: bolder;
+    font-size: 33px;
+    line-height: 31px;
+    color: #efb237;
+    margin: 0;
+    margin-bottom: 12px;
+}
+}
+
+
+content{
+    background-color: red;
 }
