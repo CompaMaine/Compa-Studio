@@ -5,8 +5,9 @@ X Remove underline
 X Get the text size
 X Remove slashes
 X Remove bullets
-- Align right
-- Add the yellow dashed borders using CSS borders: https://www.w3schools.com/css/css_border.asp
+X Get links on the same line
+X Add the yellow dashed borders using CSS borders: https://www.w3schools.com/css/css_border.asp
+
 
 
 Main Image:

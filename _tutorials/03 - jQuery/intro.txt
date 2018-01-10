@@ -17,7 +17,7 @@ Uses
 --
 
 When does it do it?
-- Handle Event Callbacks: Clicks, MouseOver, Focus, Blur, KeyUp
+- Handle EVENT Callbacks: Clicks, MouseOver, Focus, Blur, KeyUp
 
 
 What does it do to the page?
