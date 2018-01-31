@@ -19,7 +19,7 @@
         -moz-osx-font-smoothing: grayscale;
       }
       p{
-        font-size: 25.9167px;
+        font-size: 25px;
         letter-spacing: 0.2px;
         font-weight: 400;
         margin: 0 0 .5em;
@@ -35,7 +35,7 @@
         position: absolute;
         z-index: 5;
         width: 100%;
-        }
+      }
         button{
           font-size: 14px;
           letter-spacing: 1.9px;
@@ -49,15 +49,38 @@
           margin: .5em .5em .5em 0;
           color: #fff;
           background-color: #e50914;
-        }
+          margin-bottom: 200px;
+      }
+      .box{
+        display: inline-block;
+        width: 33%;
+        height: auto;
+
+      }
+      .box-img {
+        height:auto;
+        max-height:400px;
+        width:auto;
+        max-width:100%;
+      }
+      .secondpart {
+        margin-top: 200px;
+
+      }
+      .paragraph{
+        text-align: center;
+      }
+      .middle-paragraph{
+        margin-top: 150px;
+      }
+
     </style>
   </head>
 
   <body>
     <div class="header">
-      <img style="height:45px;width:167px;overflow:hidden;line-height:90px;
-      font-size:16px;direction:ltr;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
-      -moz-osx-font-smoothing:grayscale;margin-left:3%;vertical-align:middle;display:inline-bock;
+      <img style="height:100px;width:200px;overflow:hidden;direction:ltr;
+      margin-left:3%;vertical-align:middle;display:inline-bock;margin-top:-15px;
       "src="img/netflix logo.png">
       <a style="background-color:rgb(299,9,20); border-bottom-left-radius:3px;
       border-bottom-right-radius:3px; border-top-left-radius:3px; color:
@@ -66,26 +89,30 @@
       padding-bottom:7px; padding-left:17px; padding-right:17px; text-decoration:none; text-decoration-color:rgb(255,255,255)
       text-decoration-line:none; text-decoration-style:solid; -moz-osx-font-smoothing:grayscale;"
        href="/login">Sign in</a>
-    <div>
+
+    <div style="margin-left:3%;" class="secondpart">
       <h1>See what's next.</h1>
       <p>WATCH ANYWHERE. CANCEL ANYTIME.</p>
     </div>
-    <div>
+
+    <div style="margin-left:3%;">
       <button>JOIN FREE FOR A MONTH</button>
     </div>
+
     <div class="box">
-      <img src="img/asset_cancelanytime_withdevice.png">
-      <p> No commintments Cancel online at anytime </p>
+      <img class="box-img" src="img/asset_cancelanytime_withdevice.png">
+      <p class="paragraph"> No commintments Cancel <br> online at anytime </p>
     </div>
     <div class="box">
-      <img src="img/asset_mobile_tablet_UI_2.png">
-      <p> Watch anywhere </p>
+      <img class="box-img" src="img/asset_mobile_tablet_UI_2.png">
+      <p class="paragraph"> Watch anywhere </p>
     </div>
     <div class="box">
-      <img src="img/price-tag-icon-1.png">
-      <p> Pick your price </p>
+      <img class="box-img" src="img/price-tag-icon-1.png">
+      <p class="paragraph"> Pick your price </p>
     </div>
-    <div>
+
+    <div style="margin-left:50px;" class="middle-paragraph">
       <p>If you decide Netflix isn't for you - <br>
       no problem. No commitment. <br> Cancel online anytime.
       </p>
