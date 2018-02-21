@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>www.newnetflix.com</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 		<style>
 
-			body{
+		  body{
 				background: black;
 				margin: 0;
 			}
@@ -46,7 +46,7 @@
 				right: 0;
 				bottom: 0;
 				z-index: 10;
-				
+
 				height: 100%;
 				width: 100%;
 
@@ -63,59 +63,56 @@
 				zoom: 1;
 			}
 
-            .splash_content {
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                z-index: 20;
-                
-                height: 100%;
-                width: 100%;
+      .splash_content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+        height: 100%;
+        width: 100%;
 
-            }
+      }
 
 
 			.header{
-				
+
 				height: 90px;
 				border: 0;
 				z-index: 5;
 				width: 100%;
 			}
-				button{
-					font-size: 14px;
-					letter-spacing: 1.9px;
-					font-weight: 400;
-					padding: 12px 2em;
-					min-width: 112px;
-					min-height: 44px;
-					outline: 0;
-					white-space: nowrap;
-					position: relative;
-					margin: .5em .5em .5em 0;
-					color: #fff;
-					background-color: #e50914;
-					margin-bottom: 200px;
+			button{
+				font-size: 14px;
+				letter-spacing: 1.9px;
+				font-weight: 400;
+				padding: 12px 2em;
+				min-width: 112px;
+				min-height: 44px;
+				outline: 0;
+				white-space: nowrap;
+				position: relative;
+				margin: .5em .5em .5em 0;
+				color: #fff;
+				background-color: #e50914;
+				margin-bottom: 200px;
 			}
-
-
 			.signin_button {
-				
+
 				/* BLOCK-LEVEL PROPERTIES */
 				float: right;
 				margin: 18px 43.2px 0;
 				border-radius: 3px;
-				background-color: rgb(299,9,20); 
+				background-color: rgb(299,9,20);
 				padding: 7px 17px;
 
 
 				/* FONT */
 				font-family: 'Open Sans', sans-serif;
 				font-size:16px;
-				line-height:20.45px; 
-				color: white; 
+				line-height:20.45px;
+				color: white;
 				text-decoration: none;
 
 			}
@@ -125,13 +122,14 @@
 				display: inline-block;
 				width: 33%;
 				height: auto;
-
+				text-align: center;
 			}
 			.box-img {
-				height:auto;
-				max-height:400px;
-				width:auto;
-				max-width:100%;
+				height:49px;
+				direction:ltr;
+        padding-top: 20px;
+
+
 			}
 			.secondpart {
 				margin-top: 200px;
@@ -142,25 +140,38 @@
 			}
 			.middle-paragraph{
 				margin-top: 150px;
+				display: inline-block;
 			}
-
+			.tin-cell-container{
+				padding-top: 15px;
+	      background-color: #141414;
+	      border-bottom: 2px solid #3d3d3d;
+	      border-right: none;
+				cursor: pointer;
+				overflow: hidden;
+			}
+			.footer-link{
+				color: #999;
+			}
+			#otis{
+      	list-style-type: none;
+			}
 		</style>
+
 	</head>
 
 	<body>
 
-		<div class="splash_bg">
+    <div class="splash_bg">
 
-			<div class="splash_screen"></div>
+	    <div class="splash_screen"></div>
 
-            <div class="splash_content">
+        <div class="splash_content">
 
-    			<div class="header">
-
-    				<img style="height:100px;width:200px;overflow:hidden;direction:ltr;
+    		  <div class="header">
+    			  <img style="height:100px;width:200px;overflow:hidden;direction:ltr;
     				margin-left:3%;vertical-align:middle;display:inline-bock;margin-top:-15px;
     				"src="img/netflix logo.png">
-
     				<a class="signin_button" href="/login">Sign in</a>
     			</div>
 
@@ -171,31 +182,52 @@
 
     			<div style="margin-left:3%;">
     				<button>JOIN FREE FOR A MONTH</button>
-    			</div>
-            </div>
-		</div>
+    		  </div>
+        </div>
+		  </div>
 
+		  <div class="tin-cell-container">
+		    <div class="box" style="width:33.3%; display: inline-block; padding: 0 1px; vertical-align:top;">
+			    <img class="box-img" src="img/door.png">
+			    <p style="font-size: 16px; font-weight: 700; text-align: center; font-family:
+				 'Helvetica Neue',Helvetica,Arial,sans-serif;"> No commintments <br> Cancel online at anytime
+			    </p>
+		    </div>
 
+		    <div class="box">
+			    <img class="box-img" src="img/computers.png">
+			    <p style="color:#777; font-size: 16px; font-weight: 700; text-align: center; font-family:
+				 'Helvetica Neue',Helvetica,Arial,sans-serif;"> Watch anywhere </p>
+		    </div>
 
+			  <div class="box">
+			    <img class="box-img" src="img/tag.png">
+			    <p style="color:#777; font-size: 16px; font-weight: 700; text-align: center; font-family:
+				 'Helvetica Neue',Helvetica,Arial,sans-serif;"> Pick your price </p>
+		    </div>
+		  </div>
+    </div>
 
-		<div class="box">
-			<img class="box-img" src="img/asset_cancelanytime_withdevice.png">
-			<p class="paragraph"> No commintments Cancel <br> online at anytime </p>
-		</div>
-		<div class="box">
-			<img class="box-img" src="img/asset_mobile_tablet_UI_2.png">
-			<p class="paragraph"> Watch anywhere </p>
-		</div>
-		<div class="box">
-			<img class="box-img" src="img/price-tag-icon-1.png">
-			<p class="paragraph"> Pick your price </p>
-		</div>
+		<div>
+		  <p class="footer-link">Questions? Call <a class="footer-link" href="tel:1-866-579-7172">1-866-579-7172</a> </p>
+			  <ul id="otis">
+				  <li class="footer-link"> FAQ</li>
+				  <li class="footer-link">Help Center</li>
+				  <li class="footer-link">Account</li>
+				  <li class="footer-link">Media Center</li>
+				  <li class="footer-link">Investor Relations</li>
+				  <li class="footer-link">Jobs</li>
+				  <li class="footer-link">Gift Cards</li>
+				  <li class="footer-link">Ways to Watch</li>
+				  <li class="footer-link">Terms of Use</li>
+				  <li class="footer-link">Privacy</li>
+				  <li class="footer-link">Cookie Preferences</li>
+				  <li class="footer-link">Corporate Information</li>
+				  <li class="footer-link">Contact Us</li>
+				  <li class="footer-link">Speed Test</li>
+				  <li class="footer-link">Netflix Originals</li>
+				  </ul>
+	  </div>
 
-		<div style="margin-left:50px;" class="middle-paragraph">
-			<p>If you decide Netflix isn't for you - <br>
-			no problem. No commitment. <br> Cancel online anytime.
-			</p>
-			<button>JOIN FREE FOR A MONTH</button>
-		</div>
-	</body>
+  </body>
 </html>

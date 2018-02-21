@@ -5,16 +5,38 @@ Netflix Project
 - Netflix Logo
 - Login part
 - All Headings and Paragraphs
-- Aligning the 3 pictures in the middle line		
-- Creating margins for all divs top,left,bottom		
+- Aligning the 3 pictures in the middle line
+- Creating margins for all divs top,left,bottom
 - Center the Paragraphs
-
+- Inserting the background image
+- Inserting the new screenshot picture in the middle
 
 --UNSOLVED PROBLEMS--
-- Inserting the background image
-- Create the footer
+- Create the footer(Style the footer)
+- Create select language footer at the bottom
 - Fix "Sign In" button
 - Fix "Join" button
-- 
+- Creating the elements within the screenshot picture in the middle
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+--THIS PART IS GOING TO BE USED AFTER WITHIN THE MIDDLE PART--
+
+<div style="margin-left:50px;" class="middle-paragraph">
+  <p>If you decide Netflix isn't for you - <br>
+no problem. No commitment. <br> Cancel online anytime.
+  </p>
+  <button>JOIN FREE FOR A MONTH</button>
+  <img style="height: auto;max-height: 400px;width: auto;max-width: 100%;" src="img/asset_cancelanytime_withdevice.png">
+</div>
